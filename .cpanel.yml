@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/qfpuksur/public_html/cheetai
+    - export DEPLOYPATH=/home/qfpuksur/cheetai
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp *.* $DEPLOYPATH
     
